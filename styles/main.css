@@ -1,3 +1,38 @@
 body {
   margin: 0px;
 }
+.contaier {
+  display: flex;
+  justify-content: center;
+}
+.back-img {
+  width: 1440px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+.container-inform {
+  border: 2px solid blue;
+  position: absolute;
+  margin-top: 8%;
+}
+.container-inform p {
+  border: 2px solid brown;
+}
+.new-event {
+  border: 2px solid violet;
+}
+.container-list {
+  border: 2px solid chartreuse;
+}
+.footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid salmon;
+}
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
