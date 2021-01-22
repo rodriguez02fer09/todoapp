@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-family: "Josefin Sans", sans-serif;
 }
 .contaier {
   display: flex;
@@ -12,18 +13,74 @@ body {
   top: 0px;
 }
 .container-inform {
-  border: 2px solid blue;
   position: absolute;
-  margin-top: 8%;
+  margin-top: 6%;
+  width: 550px;
+  height: 440px;
+  left: 330px;
 }
-.container-inform p {
-  border: 2px solid brown;
+.tittle {
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.tittle p {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 15px;
+  color: white;
+  margin-top: 0px;
+}
+
+.img-moon {
+  position: absolute;
+  left: 95.19%;
+  right: 0.16%;
+  top: 22.92%;
+  bottom: 22.92%;
+  background-color: white;
+  height: 26px;
+  width: 25px;
+  top: 11px;
+  left: 515px;
+  border-radius: 80%;
+  border: 0px;
 }
 .new-event {
-  border: 2px solid violet;
+  padding: 30px 0px;
+  border-radius: 6%;
+}
+.new-event ::placeholder {
+  padding-left: 80px;
+}
+.input-events {
+  width: 540px;
+  height: 60px;
+  left: 450px;
+  top: 158px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #9495a5;
+  border-radius: 5px;
+  border: 0px;
 }
 .container-list {
-  border: 2px solid chartreuse;
+  border-radius: 5px;
+  border: 2px solid grey;
+  background-color: white;
+  width: 540px;
+  height: 439px;
+  left: 527px;
+  top: 262px;
+}
+.container-list ol li {
+  color: grey;
 }
 .footer {
   display: flex;
