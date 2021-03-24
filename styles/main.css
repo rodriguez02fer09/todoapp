@@ -6,12 +6,25 @@ body {
   display: flex;
   justify-content: center;
 }
+.contaier.dark {
+  background: black;
+}
+
 .back-img {
   width: 1440px;
   height: 300px;
   left: 0px;
   top: 0px;
+  margin: 0px;
 }
+.bg-img.dark {
+  width: 1440px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+  background-image: url(../imagenes/bg-desktop-dark.jpg);
+}
+
 .container-inform {
   position: absolute;
   margin-top: 6%;
@@ -70,26 +83,38 @@ body {
   border-radius: 5px;
   border: 0px;
 }
+.input-events.dark {
+  background: #25273d;
+}
 .container-list {
-  border-radius: 5px;
-  border: 2px solid grey;
   background-color: white;
   width: 540px;
   height: 439px;
-  left: 527px;
-  top: 262px;
+  left: 450px;
+  top: 246px;
 }
+
+.container-list.dark {
+  background: rgba(57, 58, 75, 1);
+}
+
 .container-list ol li {
   color: grey;
 }
-.footer {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  border: 2px solid salmon;
-}
+
 .container-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  width: 179 px;
+  height: 14px;
+  left: 500px;
+  top: 734px;
+  bottom: 52px;
+  padding-bottom: 60px;
+  color: rgba(91, 94, 126, 1);
+  letter-spacing: -0.194444px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
 }

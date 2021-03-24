@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/normalize.css" />
     <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/main-dark.css" />
+    <link rel="stylesheet" href="../js/todoapp.js" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
@@ -12,32 +14,33 @@
     />
     <title>To do app</title>
   </head>
-  <body class="contaier">
+  <body class="contaier dark">
     <div class="back-img">
-      <img class="bg-img" src="../imagenes/bg-desktop-light.jpg" />
+      <img class="bg-img dark" src=".<i class="fas fa-moon"></i>
     </div>
     <div class="container-inform">
       <div class="tittle">
         <p>TODO</p>
-        <img class="img-moon" src="../imagenes/icon-moon.svg" />
+        <img class="img-moon" id="swich" src="../imagenes/icon-moon.svg" />
       </div>
       <div class="new-event">
         <input
-          class="input-events"
+          class="input-events dark"
           type="text"
           placeholder="Create a new To do... "
         />
       </div>
-      <div class="container-list">
+      <div class="container-list dark">
         <ol>
+          <li>Complete online javascript course</li>
+          <li>Lista</li>
+          <li>Lista</li>
           <li>Lista</li>
         </ol>
       </div>
     </div>
-    <footer class="footer">
-      <div class="container-footer">
-        <p>Apasionado por la cultura cervecera</p>
-      </div>
+    <footer class="container-footer">
+      <p>Drag and drop to reorder list</p>
     </footer>
   </body>
 </html>
