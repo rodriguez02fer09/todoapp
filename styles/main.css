@@ -1,13 +1,9 @@
 body {
   margin: 0px;
   font-family: "Josefin Sans", sans-serif;
-}
-.contaier {
   display: flex;
   justify-content: center;
-}
-.contaier.dark {
-  background: black;
+  background: #f2f2f2;
 }
 
 .back-img {
@@ -16,13 +12,12 @@ body {
   left: 0px;
   top: 0px;
   margin: 0px;
+  background-image: url(../imagenes/bg-desktop-light.jpg);
 }
-.bg-img.dark {
-  width: 1440px;
-  height: 300px;
-  left: 0px;
-  top: 0px;
-  background-image: url(../imagenes/bg-desktop-dark.jpg);
+.title-img {
+  height: 26px;
+  width: 25.112503051757812px;
+  background: url(../imagenes/icon-moon.svg);
 }
 
 .container-inform {
@@ -48,20 +43,6 @@ body {
   margin-top: 0px;
 }
 
-.img-moon {
-  position: absolute;
-  left: 95.19%;
-  right: 0.16%;
-  top: 22.92%;
-  bottom: 22.92%;
-  background-color: white;
-  height: 26px;
-  width: 25px;
-  top: 11px;
-  left: 515px;
-  border-radius: 80%;
-  border: 0px;
-}
 .new-event {
   padding: 30px 0px;
   border-radius: 6%;
@@ -83,8 +64,8 @@ body {
   border-radius: 5px;
   border: 0px;
 }
-.input-events.dark {
-  background: #25273d;
+.input-events {
+  background: white;
 }
 .container-list {
   background-color: white;
@@ -92,10 +73,8 @@ body {
   height: 439px;
   left: 450px;
   top: 246px;
-}
-
-.container-list.dark {
-  background: rgba(57, 58, 75, 1);
+  border: solid 2px grey;
+  border-radius: 7px;
 }
 
 .container-list ol li {
@@ -117,4 +96,58 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
+}
+
+body.darkmode {
+  margin: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  background: #000000;
+}
+back-img.darkmode {
+  width: 1440px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+  margin: 0px;
+  background-image: url(../imagenes/bg-desktop-light.jpg);
+}
+
+title-img.darkmode {
+  height: 26px;
+  width: 25.112503051757812px;
+  left: 515px;
+  top: 11px;
+  border: none;
+  background: url(../imagenes/icon-sun.svg);
+}
+input-events.darkmode {
+  background: rgba(37, 39, 61, 1);
+}
+container-list.darkmode {
+  width: 540px;
+  height: 439px;
+  left: 450px;
+  top: 246px;
+  border: solid 2px grey;
+  border-radius: 7px;
+  background: rgba(37, 39, 61, 1);
+}
+container-footer.darkmode {
+  position: absolute;
+  width: 179 px;
+  height: 14px;
+  left: 500px;
+  top: 734px;
+  bottom: 52px;
+  padding-bottom: 60px;
+  color: rgba(91, 94, 126, 1);
+  letter-spacing: -0.194444px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  background: rgba(37, 39, 61, 1);
 }
